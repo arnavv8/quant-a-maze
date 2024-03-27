@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavbarComponent from './Navbar';
+import NavbarComponent from './components/Navbar';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Tracks from './components/Tracks';
