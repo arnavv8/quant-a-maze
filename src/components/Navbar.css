@@ -1,0 +1,37 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu button {
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-menu button:hover {
+    text-decoration: underline;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

@@ -12,13 +12,15 @@ const NavbarComponent = () => {
 
   return (
     <nav className="navbar">
-      <button onClick={() => scrollToSection('hero')}>Hero</button>
-      <button onClick={() => scrollToSection('tracks')}>Tracks</button>
-      <button onClick={() => scrollToSection('prizes')}>Prizes</button>
-      <button onClick={() => scrollToSection('sponsors')}>Sponsors</button>
-      <button onClick={() => scrollToSection('timeline')}>Timeline</button>
-      <button onClick={() => scrollToSection('contact')}>Contact</button>
-      {/* Add more navigation buttons as needed */}
+      <div className="navbar-items">
+        <button onClick={() => scrollToSection('hero')}>Hero</button>
+        <button onClick={() => scrollToSection('tracks')}>Tracks</button>
+        <button onClick={() => scrollToSection('prizes')}>Prizes</button>
+        {/* Add more navigation buttons as needed */}
+        <button onClick={() => scrollToSection('sponsors')}>Sponsors</button>
+        <button onClick={() => scrollToSection('faq')}>FAQ</button>
+        <button onClick={() => scrollToSection('contact')}>Contact</button>
+      </div>
     </nav>
   );
 };
