@@ -1,36 +1,21 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
-import NavbarComponent from './Navbar';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Tracks from './components/Tracks';
-import Prizes from './components/Prizes';
-import Timeline from './components/Timeline';
-import Sponsors from './components/Sponsors';
-import Faq from './components/Faq';
-import Contact from './components/Contact';
-
-const App = () => {
+const NavbarComponent = () => {
   return (
-    <div className="App">
-      <Router>
-        <NavbarComponent />
-        <Routes>
-          <Route path="/" element={<Header />} />
-          <Route path="/hero" element={<Hero />} />
-          <Route path="/tracks" element={<Tracks />} />
-          <Route path="/prizes" element={<Prizes />} />
-          <Route path="/timeline" element={<Timeline />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-    </div>
+    <nav className="navbar">
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/hero">Hero</Link></li>
+        <li><Link to="/tracks">Tracks</Link></li>
+        <li><Link to="/prizes">Prizes</Link></li>
+        <li><Link to="/timeline">Timeline</Link></li>
+        <li><Link to="/sponsors">Sponsors</Link></li>
+        <li><Link to="/faq">FAQ</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+    </nav>
   );
 };
 
-export default App;
+export default NavbarComponent;
