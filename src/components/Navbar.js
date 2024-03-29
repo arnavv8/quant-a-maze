@@ -1,19 +1,21 @@
+// NavbarComponent.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const NavbarComponent = () => {
+  // Function to handle scrolling to the corresponding section
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className="navbar">
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/hero">Hero</Link></li>
-        <li><Link to="/tracks">Tracks</Link></li>
-        <li><Link to="/prizes">Prizes</Link></li>
-        <li><Link to="/timeline">Timeline</Link></li>
-        <li><Link to="/sponsors">Sponsors</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
+      <button onClick={() => scrollToSection('hero')}>Hero</button>
+      <button onClick={() => scrollToSection('tracks')}>Tracks</button>
+      <button onClick={() => scrollToSection('prizes')}>Prizes</button>
+      {/* Add more navigation buttons as needed */}
     </nav>
   );
 };
