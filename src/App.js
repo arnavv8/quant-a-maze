@@ -5,7 +5,9 @@ import NavbarComponent from './components/Navbar';
 import Hero from './components/Hero';
 import Tracks from './components/Tracks';
 import Prizes from './components/Prizes';
-// Import other components as needed
+import Sponsors from './components/Sponsors'; // Import the Sponsors component
+import Timeline from './components/Timeline'; // Import the Timeline component
+import Contact from './components/Contact'; // Import the Contact component
 
 const App = () => {
   return (
@@ -19,6 +21,15 @@ const App = () => {
       </div>
       <div id="prizes"> {/* Anchor point for Prizes */}
         <Prizes />
+      </div>
+      <div id="sponsors"> {/* Anchor point for Sponsors */}
+        <Sponsors />
+      </div>
+      <div id="timeline"> {/* Anchor point for Timeline */}
+        <Timeline />
+      </div>
+      <div id="contact"> {/* Anchor point for Contact */}
+        <Contact />
       </div>
       {/* Add more components with anchor points as needed */}
     </div>
