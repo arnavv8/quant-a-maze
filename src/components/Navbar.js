@@ -15,6 +15,7 @@ const NavbarComponent = () => {
     <nav className="navbar">
       <div className="navbar-items">
         <button onClick={() => scrollToSection('hero')}>Home</button>
+        <button onClick={() => scrollToSection('about-us')}>About Us</button>
         <button onClick={() => scrollToSection('tracks')}>Tracks</button>
         <button onClick={() => scrollToSection('prizes')}>Prizes</button>
         <button onClick={() => scrollToSection('sponsors')}>Sponsors</button>
