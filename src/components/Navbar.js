@@ -1,5 +1,6 @@
 // NavbarComponent.js
 import React from 'react';
+import './Navbar';
 
 const NavbarComponent = () => {
   // Function to handle scrolling to the corresponding section

@@ -5,9 +5,9 @@ import NavbarComponent from './components/Navbar';
 import Hero from './components/Hero';
 import Tracks from './components/Tracks';
 import Prizes from './components/Prizes';
-import Sponsors from './components/Sponsors'; // Import the Sponsors component
-import Timeline from './components/Timeline'; // Import the Timeline component
-import Contact from './components/Contact'; // Import the Contact component
+import Sponsors from './components/Sponsors';
+import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
