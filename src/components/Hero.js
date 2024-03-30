@@ -1,19 +1,22 @@
 import React from 'react';
+import './Hero.css';
 
 const Hero = () => {
   return (
     <section className="hero">
-      <h2>Quantum Computing Hackathon</h2>
-      <p>
-        This year's theme is Quant-A-Maze. Bring your skills and creativity to solve
-        challenges in quantum computing and related fields.
-      </p>
-      <p>
-        Register now to secure your spot and join us for a weekend of innovation,
-       learning, and fun!
-      </p>
+      <div className="hero-heading">
+        <h1>Quant-a-Maze</h1>
+        <h2>24-hour Hackathon</h2>
+      </div>
+      <button className="register-button" onClick={registerNow}>Register Now</button>
+      <p>June 2024</p>
+      <p>Nitte Meenakshi Institute of Technology, Bangalore</p>
     </section>
   );
+};
+
+const registerNow = () => {
+  // Implement your registerNow function logic here
 };
 
 export default Hero;
