@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-heading">
-        <h1>Quant-a-Maze</h1>
+        <h1>Quant-A-Maze</h1>
         <h2>24-hour Hackathon</h2>
       </div>
       <button className="register-button" onClick={registerNow}>Register Now</button>
