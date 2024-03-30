@@ -6,6 +6,7 @@ import Prizes from './components/Prizes';
 import Sponsors from './components/Sponsors';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
+import './App.css';
 
 const App = () => {
   return (
