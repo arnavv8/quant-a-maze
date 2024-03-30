@@ -1,6 +1,6 @@
 // NavbarComponent.js
 import React from 'react';
-import './Navbar';
+import './Navbar.css'; // Corrected import statement
 
 const NavbarComponent = () => {
   // Function to handle scrolling to the corresponding section
@@ -14,10 +14,9 @@ const NavbarComponent = () => {
   return (
     <nav className="navbar">
       <div className="navbar-items">
-        <button onClick={() => scrollToSection('hero')}>Hero</button>
+        <button onClick={() => scrollToSection('hero')}>Home</button>
         <button onClick={() => scrollToSection('tracks')}>Tracks</button>
         <button onClick={() => scrollToSection('prizes')}>Prizes</button>
-        {/* Add more navigation buttons as needed */}
         <button onClick={() => scrollToSection('sponsors')}>Sponsors</button>
         <button onClick={() => scrollToSection('faq')}>FAQ</button>
         <button onClick={() => scrollToSection('contact')}>Contact</button>
