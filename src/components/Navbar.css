@@ -1,5 +1,8 @@
 /* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
 .navbar {
+    font-family: 'Zen Dots', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
