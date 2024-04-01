@@ -1,3 +1,4 @@
+/* Hero.css */
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 .hero {
@@ -5,15 +6,20 @@
   background-color: black;
   color: white;
   padding: 50px 0;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .hero-heading {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .hero-heading h1 {
-  font-size: 48px;
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
 .hero-heading h1 span {
@@ -25,26 +31,34 @@
 }
 
 .hero-heading h2 {
-  font-size: 24px;
+  font-size: 35px;
   color: yellow;
   margin-top: 10px;
 }
 
 .register-button {
-  background-color: white;
+  background-color: yellow;
   color: black;
   border: none;
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 15px 20px;
+  font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-bottom: 50px;
 }
 
 .register-button:hover {
-  background-color: lightgray;
+  background-color: lightyellow;
 }
 
-.hero p {
-  font-size: 16px;
+.hero-subheading {
+  font-size: 24px;
+  color: white;
+  margin-top: auto;
+}
+
+.hero-subheading p {
+  margin: 0;
+  margin-bottom: 20px;
 }
