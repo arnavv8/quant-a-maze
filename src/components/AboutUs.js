@@ -35,10 +35,10 @@ const AboutUsStats = () => {
   );
 };
 
-const AboutUsImage = () => {
+const LooperThree = () => {
   return (
-    <div className="about-us-image">
-      <img src="your-image-source-url.png" alt="About Us Image" />
+    <div className="LooperThree">
+      {/* Add your Looper-3 content here */}
     </div>
   );
 };
@@ -47,11 +47,13 @@ const AboutUs = () => {
   return (
     <section id="about-us" className="about-us-section">
       <div className="about-us-main">
+        <div className="looper-container">
+          <LooperThree />
+        </div>
         <div className="about-us-content-wrapper">
           <AboutUsContent />
           <AboutUsStats />
         </div>
-        <AboutUsImage />
       </div>
     </section>
   );
