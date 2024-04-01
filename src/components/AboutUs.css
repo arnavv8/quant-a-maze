@@ -1,0 +1,63 @@
+/* AboutUs.css */
+.about-us-section {
+    padding: 50px;
+  }
+  
+  .about-us-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+  }
+  
+  .about-us-content {
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+  
+  .about-us-content h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-us-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .stat-item p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .about-us-image {
+    grid-column: 2;
+    align-self: center;
+  }
+  
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+  }
