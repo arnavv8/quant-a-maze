@@ -13,14 +13,20 @@ const NavbarComponent = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-items">
-        <button onClick={() => scrollToSection('hero')}>Home</button>
-        <button onClick={() => scrollToSection('about-us')}>About Us</button>
-        <button onClick={() => scrollToSection('tracks')}>Tracks</button>
-        <button onClick={() => scrollToSection('prizes')}>Prizes</button>
-        <button onClick={() => scrollToSection('sponsors')}>Sponsors</button>
-        <button onClick={() => scrollToSection('faq')}>FAQ</button>
-        <button onClick={() => scrollToSection('contact')}>Contact</button>
+      <div class="logo-holder">
+        <div className="qbit-logo"></div>
+      </div>
+      <div class="link-holder">
+      <div className="navbar-links">
+        <button class = "link-btn" onClick={() => scrollToSection('hero')}>Home</button>
+        <button class = "link-btn" onClick={() => scrollToSection('about-us')}>About Us</button>
+        <button class = "link-btn" onClick={() => scrollToSection('tracks')}>Tracks</button>
+        <button class = "link-btn" onClick={() => scrollToSection('prizes')}>Prizes</button>
+        <button class = "link-btn" onClick={() => scrollToSection('prizes')}>Timeline</button>
+        <button class = "link-btn" onClick={() => scrollToSection('sponsors')}>Sponsors</button>
+        <button class = "link-btn" onClick={() => scrollToSection('faq')}>FAQ</button>
+        <button class = "link-btn" onClick={() => scrollToSection('contact')}>Contact us</button>
+      </div>
       </div>
     </nav>
   );
