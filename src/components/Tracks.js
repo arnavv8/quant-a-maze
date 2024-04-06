@@ -1,32 +1,20 @@
 import React from 'react';
+import './Tracks.css';
 
 const Tracks = () => {
   return (
-    <section className="tracks" id="tracks">
+    <div className="tracks-container">
       <h2>Tracks</h2>
-      <p>
-        Choose from one of the following tracks to showcase your skills and
-        creativity:
-      </p>
-      <ul>
-        <li>
-          <strong>Quantum Algorithms:</strong> Develop new quantum algorithms or
-          improve existing ones to solve real-world problems.
-        </li>
-        <li>
-          <strong>Quantum Simulation:</strong> Use quantum computers to simulate
-          complex quantum systems and explore new physics.
-        </li>
-        <li>
-          <strong>Quantum Machine Learning:</strong> Apply quantum computing to
-          machine learning and artificial intelligence.
-        </li>
-        <li>
-          <strong>Quantum Cryptography:</strong> Explore the use of quantum
-          mechanics for secure communication and cryptography.
-        </li>
+      <ul className="tracks-list">
+        <li className="track-item track-game-dev">Game Dev</li>
+        <li className="track-item track-blockchain">Blockchain</li>
+        <li className="track-item track-jil">JIL</li>
+        <li className="track-item track-al-ml">Al and ML</li>
+        <li className="track-item track-lot">lOT</li>
+        <li className="track-item track-epen">epen</li>
+        <li className="track-item track-innovation">Innovation</li>
       </ul>
-    </section>
+    </div>
   );
 };
 

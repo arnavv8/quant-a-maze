@@ -1,34 +1,28 @@
 import React from 'react';
+import prizesbg from '../components/images/prizesbg.png';
+import firstprize from '../components/images/1stprize.png';
+import secondprize from '../components/images/2ndprize.png';
+import thirdprize from '../components/images/3rdprize.png';
+import './Prizes.css';
 
 const Prizes = () => {
   return (
-    <section className="prizes" id="prizes">
-      <h2>Prizes</h2>
-      <p>
-        Win exciting prizes and recognition for your hard work and creativity.
-        Here are some of the prizes up for grabs:
-      </p>
-      <ul>
-        <li>
-          <strong>First Place:</strong> $5000 and a trophy
-        </li>
-        <li>
-          <strong>Second Place:</strong> $3000 and a trophy
-        </li>
-        <li>
-          <strong>Third Place:</strong> $2000 and a trophy
-        </li>
-        <li>
-          <strong>Best Use of Quantum Computing:</strong> $1000 and a trophy
-        </li>
-        <li>
-          <strong>Best Use of Machine Learning:</strong> $1000 and a trophy
-        </li>
-        <li>
-          <strong>Best Use of Cryptography:</strong> $1000 and a trophy
-        </li>
-      </ul>
-    </section>
+    <div className="prizes-container">
+      <div className="prizes-header">
+        <img src={prizesbg} alt="Prizes Header" />
+      </div>
+      <div className="prizes-list">
+        <div className="prize-item">
+          <img src={thirdprize} alt="3rd Prize" />
+        </div>
+        <div className="prize-item">
+          <img src={secondprize} alt="2nd Prize" />
+        </div>
+        <div className="prize-item">
+          <img src={firstprize} alt="1st Prize" />
+        </div>
+      </div>
+    </div>
   );
 };
 
