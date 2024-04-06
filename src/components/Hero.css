@@ -29,9 +29,10 @@
 }
 
 .hero-heading h2 {
+  
   font-size: 2.5rem;
   color: #edd189;
-  margin-top: 1rem;
+  
 }
 
 .register-button {
@@ -54,13 +55,15 @@
 .hero-subheading {
   
   color: white;
-
+  
   margin-left:12rem;
   text-align: center;
-  /* margin-bottom: 140rem; */
+  margin-bottom: 4rem;
 }
 .event-date{
+  margin-top: 2rem;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .event-venue{

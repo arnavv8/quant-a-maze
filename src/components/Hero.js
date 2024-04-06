@@ -29,6 +29,7 @@ const Hero = () => {
 };
 
 const registerNow = () => {
+  // Implement your registerNow function logic here
 };
 
 export default Hero;

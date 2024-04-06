@@ -1,17 +1,21 @@
 // AboutUs.js
-import React from 'react';
-import './AboutUs.css';
+import React from "react";
+import "./AboutUs.css";
 
 const AboutUsContent = () => {
   return (
     <div className="about-us-content">
-      <h2>About Us</h2>
-      <p>
-        Quantum Tech Club is a student club that aims to bring primary quantum  computing resources. We provide resources for students who are just  beginning to learn about quantum computing to those who are looking for  internships and jobs in the quantum computing area.
-      </p>
-      <p>
-        Throughout the year, the club will host events that expose students to new ideas in the  field of quantum computing, including Ted talks, blog writing, panel discussion, educational workshops, field trips, Hackathons, social events but not limited to.
-      </p>
+      <div class="about-us-main-heading">About Us</div>
+      <div class="about-us-desc">
+        Quantum Tech Club is a student club that aims to bring primary quantum
+        computing resources. We provide resources for students who are just
+        beginning to learn about quantum computing to those who are looking for
+        internships and jobs in the quantum computing area. Throughout the year,
+        the club will host events that expose students to new ideas in the field
+        of quantum computing, including Ted talks, blog writing ,panel
+        discussion, educational workshops, field trips, Hackathons, social
+        events but not limited to.
+      </div>
     </div>
   );
 };
@@ -20,25 +24,17 @@ const AboutUsStats = () => {
   return (
     <div className="about-us-stats">
       <div className="stat-item">
-        <h3>150+</h3>
-        <p>Members</p>
+        <div class="stat-number">150+</div>
+        <div>Members</div>
       </div>
       <div className="stat-item">
-        <h3>1250+</h3>
-        <p>Followers</p>
+        <div class="stat-number">1250+</div>
+        <div>Followers</div>
       </div>
       <div className="stat-item">
-        <h3>15,000+</h3>
-        <p>Applications</p>
+        <div class="stat-number">15,000+</div>
+        <div>Applications</div>
       </div>
-    </div>
-  );
-};
-
-const LooperThree = () => {
-  return (
-    <div className="LooperThree">
-      {/* Add your Looper-3 content here */}
     </div>
   );
 };
@@ -47,13 +43,12 @@ const AboutUs = () => {
   return (
     <section id="about-us" className="about-us-section">
       <div className="about-us-main">
-        <div className="looper-container">
-          <LooperThree />
-        </div>
+        <div className="left-about-us-design"></div>
         <div className="about-us-content-wrapper">
           <AboutUsContent />
           <AboutUsStats />
         </div>
+        <div className="right-about-us-design"></div>
       </div>
     </section>
   );

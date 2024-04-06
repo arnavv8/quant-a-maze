@@ -12,13 +12,28 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <HeroWithNav/>
-      <AboutUs />
-      <Tracks />
-      <Prizes />
-      <Sponsors />
-      <Timeline />
-      <Contact />
+      <div class = "hero-block">
+        <HeroWithNav/>
+      </div>
+      <div className="about-block">
+        <AboutUs />
+      </div>
+      <div className="tracks-block">
+        <Tracks />
+      </div>
+      <div className="prizes-block">
+        <Prizes />
+      </div>
+      <div className="sponsors-block">
+        <Sponsors />
+      </div>
+      <div className="timline-block">
+        <Timeline />
+      </div>
+      <div className="contact-block">
+        <Contact />
+      </div>
+      
     </div>
   );
 };

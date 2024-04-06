@@ -1,8 +1,8 @@
 import React from 'react';
-import prizesbg from '../components/images/prizesbg.png';
-import firstprize from '../components/images/1stprize.png';
-import secondprize from '../components/images/2ndprize.png';
-import thirdprize from '../components/images/3rdprize.png';
+import prizesbg from '../img/prize/prizesbg.png';
+import firstprize from '../img/prize/1stprize.png';
+import secondprize from '../img/prize/2ndprize.png';
+import thirdprize from '../img/prize/3rdprize.png';
 import './Prizes.css';
 
 const Prizes = () => {
