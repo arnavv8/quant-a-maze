@@ -1,7 +1,5 @@
-/* Navbar.css */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-
 .navbar {
+<<<<<<< HEAD
     font-family: 'Zen Dots', sans-serif;
     position: fixed;
     top: 0;
@@ -14,17 +12,62 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
+=======
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    /* align-items: left; */
+    padding: 2rem 2rem 0rem 2rem;
+    
+>>>>>>> 2dc972d335ed3ebd419460c5c8865eef47395834
 }
 
-.navbar button {
+.navbar-links{
+    display:flex;
+    justify-content: space-between;
+}
+
+.link-btn {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.01rem;
+    font-weight: 700;
     background: none;
     border: none;
-    color: white;
+    color: #DED5BC;
     cursor: pointer;
+<<<<<<< HEAD
     font-size: 16px;
     padding: 10px 20px;
+=======
+    text-transform: uppercase;
+    
+
+>>>>>>> 2dc972d335ed3ebd419460c5c8865eef47395834
 }
 
 .navbar button:hover {
     text-decoration: underline;
 }
+
+.qbit-logo{
+    background-image: url(../img/home/logo1.png);
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height:50px;
+    width:50px;
+    
+}
+
+.logo-holder{
+    flex:1;
+}
+
+.link-holder{
+    flex:1.5;
+    
+}
+

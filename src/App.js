@@ -1,6 +1,6 @@
 import React from 'react';
-import NavbarComponent from './components/Navbar';
-import Hero from './components/Hero';
+import './components/fonts.css'
+import HeroWithNav from './components/HeroWithNav';
 import AboutUs from './components/AboutUs';
 import Tracks from './components/Tracks';
 import Prizes from './components/Prizes';
@@ -12,8 +12,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <NavbarComponent />
-      <Hero />
+      <HeroWithNav/>
       <AboutUs />
       <Tracks />
       <Prizes />

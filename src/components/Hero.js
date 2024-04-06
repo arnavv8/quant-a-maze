@@ -7,16 +7,22 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-heading">
         <h1>
-          QUANT<span className="yellow">-</span>A<span className="yellow">-</span>MAZE
+          QUANT-<span className="yellow">A</span>-MAZE
         </h1>
         <h2>48-Hour Hackathon</h2>
-      </div>
-      <button className="register-button yellow-button" onClick={registerNow}>
+        <button className="register-button yellow-button" onClick={registerNow}>
         Register Now
       </button>
+      </div>
+      
       <div className="hero-subheading">
-        <p>24th - 26th April</p>
-        <p>Nitte Meenakshi Institute of Technology, Bangalore</p>
+        <div class="event-date">
+          24th <span className="yellow">-</span> 26th April
+        </div>
+        <div class="event-venue">
+          Nitte Meenakshi Institute of Technology, Bangalore
+        </div>
+        
       </div>
     </section>
   );

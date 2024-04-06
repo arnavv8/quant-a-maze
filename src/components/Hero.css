@@ -1,11 +1,9 @@
-/* Hero.css */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
 
 .hero {
   font-family: 'Zen Dots', sans-serif;
-  background-color: black;
   color: white;
-  padding: 50px 0;
+  padding: 1.5rem 0;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -13,39 +11,40 @@
 }
 
 .hero-heading {
-  margin-bottom: 50px;
+  margin-bottom: 9rem;
+  margin-left: 10rem;
+  text-align: center;
 }
 
 .hero-heading h1 {
-  font-size: 80px;
+  font-size: 4.5rem;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  
 }
 
-.hero-heading h1 span {
-  color: white;
-}
 
-.hero-heading h1 span.yellow {
-  color: yellow;
+.yellow {
+  color: #FFAB07;
 }
 
 .hero-heading h2 {
-  font-size: 35px;
-  color: yellow;
-  margin-top: 10px;
+  font-size: 2.5rem;
+  color: #edd189;
+  margin-top: 1rem;
 }
 
 .register-button {
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
+  font-family: "Aldrich", sans-serif;
   color: black;
   border: none;
-  padding: 15px 20px;
-  font-size: 20px;
-  border-radius: 5px;
+  padding: 1.3rem 1.3rem;
+  font-size: 1.4rem;
+  border-radius: .5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-bottom: 50px;
+
 }
 
 .register-button:hover {
@@ -53,12 +52,19 @@
 }
 
 .hero-subheading {
-  font-size: 24px;
+  
   color: white;
-  margin-top: auto;
+
+  margin-left:12rem;
+  text-align: center;
+  /* margin-bottom: 140rem; */
+}
+.event-date{
+  font-size: 3rem;
 }
 
-.hero-subheading p {
-  margin: 0;
-  margin-bottom: 20px;
+.event-venue{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: rgb(194, 194, 194);
 }
