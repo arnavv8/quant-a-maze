@@ -10,6 +10,7 @@
 
 .navbar-links{
     display:flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -47,6 +48,9 @@
 }
 
 .link-holder{
+    display: flex;
+    align-items: center;
+    
     flex:1.5;
     
 }

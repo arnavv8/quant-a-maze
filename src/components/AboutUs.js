@@ -43,19 +43,16 @@ const AboutUs = () => {
   return (
     <section id="about-us" className="about-us-section">
       <div className="about-us-main">
-        
         <div className="about-us-content-wrapper">
           <AboutUsContent />
           <AboutUsStats />
         </div>
         <div className="left-about-us-design"></div>
         <div className="right-about-us-design">
-          <div className="design-holder">
-            <div className="main-circle"></div>
-            <div className="bg-looper"></div>
-            <div className="bg-circle"></div>
-            <div className="bg-glow"></div>
-          </div>
+          <div className="main-circle"></div>
+          <div className="bg-looper"></div>
+          <div className="bg-circle"></div>
+          <div className="bg-glow"></div>
         </div>
       </div>
     </section>

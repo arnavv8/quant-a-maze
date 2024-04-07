@@ -1,6 +1,7 @@
 /* AboutUs.css */
 .about-us-section{
   font-family: "Work Sans", sans-serif;
+  
 }
 
 
@@ -8,9 +9,8 @@
   margin-top: 5rem;
   position: relative;
   z-index: 100;
-  /* overflow-x: hidden; */
-  
-  
+  /* overflow-x: hidden;
+  overflow-y: visible; */
 }
 
 .about-us-content-wrapper{
@@ -37,6 +37,7 @@
   font-size: 2rem;
   position: relative;
   z-index: 100;
+ 
   
 
 }
@@ -76,41 +77,85 @@
   bottom: -6rem;
   z-index: 2;
   opacity: 0.3;
+  
+  
 }
 
 .right-about-us-design{
   
   position: absolute;
-  left: 0rem;
-  bottom: 0rem;
-  top: 50rem;
+
+  /* border-color: green;
+  border-width: 10px; */
+  width: 25rem;
+  height: 25rem;  
+
   z-index: 2;
-  overflow: hidden;
+  top: 0rem;
+  right: 7rem;
+  /* overflow: hidden; */
+  z-index: 500;
+   /* overflow-x: hidden */
+   
   
 }
 
-.design-holder{
-  position: relative;
-}
 
 .main-circle{
   background-image: url(../img/aboutus/main-circle.svg);
-  width: 30rem;
-  height: 30rem;
+  width: 40rem;
+  height: 40rem;
   background-size: contain; 
   background-position: center center  ; 
   background-repeat: no-repeat;
   position: absolute;
+  /* border-color: blue; */
+  left: 17rem;
+  top: 1.5rem;
+  z-index: 15;
+
 }
 
 .bg-looper{
   background-image: url(../img/aboutus/bg-looper.svg);
-  width: 30rem;
-  height: 30rem;
+  width: 75rem;
+  height: 75rem;
   background-size: contain; 
   background-position: center center  ; 
   background-repeat: no-repeat;
   position: absolute;
+  /* border-color: blue; */
+  top: -15rem;
+  left: -8rem;
+  opacity: .7;
+}
+
+.bg-circle{
+  background-image: url(../img/aboutus/bg-circle.svg);
+  width: 40rem;
+  height: 40rem;
+  background-size: contain; 
+  background-position: center center  ; 
+  background-repeat: no-repeat;
+  position: absolute;
+  /* border-color: blue; */
+  left: 11rem;
+  top: 1rem;
+
+}
+
+.bg-glow{
+  background-image: url(../img/aboutus/bg-glow.svg);
+  width: 70rem;
+  height: 70rem;
+  background-size: contain; 
+  background-position: center center  ; 
+  background-repeat: no-repeat;
+  position: absolute;
+  /* border-color: blue; */
+  bottom: -35rem;
+  left: -13rem;
+  opacity: .4;
   
 }
 
