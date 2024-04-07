@@ -1,16 +1,18 @@
 /* AboutUs.css */
 .about-us-section{
   font-family: "Work Sans", sans-serif;
-  
-  
-  
 }
 
 
 .about-us-main {
   margin-top: 5rem;
+  position: relative;
+  z-index: 100;
+  /* overflow-x: hidden; */
+  
   
 }
+
 .about-us-content-wrapper{
   padding-left: 5rem;
   padding-right: 30rem;
@@ -29,9 +31,13 @@
   margin-bottom: 1rem;
 }
 
+
 .about-us-desc {
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 2rem;
+  position: relative;
+  z-index: 100;
+  
 
 }
 
@@ -41,6 +47,9 @@
   align-items: center;
   color: white;
   margin-bottom: 4rem;
+  position: relative;
+  z-index: 100;
+
 }
 
 .stat-item {
@@ -52,6 +61,57 @@
 
 .stat-number{
   font-size: 5rem;
+}
+
+.left-about-us-design{
+  background-image: url(../img/aboutus/left-about-us.svg);
+  width: 60rem;
+  height: 60rem;
+  background-size: contain; 
+  background-position: center center  ; 
+  background-repeat: no-repeat;
+  /* display: inline-block; */
+  position: absolute;
+  left: -31rem;
+  bottom: -6rem;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.right-about-us-design{
+  
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  top: 50rem;
+  z-index: 2;
+  overflow: hidden;
+  
+}
+
+.design-holder{
+  position: relative;
+}
+
+.main-circle{
+  background-image: url(../img/aboutus/main-circle.svg);
+  width: 30rem;
+  height: 30rem;
+  background-size: contain; 
+  background-position: center center  ; 
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.bg-looper{
+  background-image: url(../img/aboutus/bg-looper.svg);
+  width: 30rem;
+  height: 30rem;
+  background-size: contain; 
+  background-position: center center  ; 
+  background-repeat: no-repeat;
+  position: absolute;
+  
 }
 
 
