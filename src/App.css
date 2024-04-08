@@ -3,6 +3,7 @@ body {
   font-family: 'Zen Dots', sans-serif;
   background-color: black;
   color: yellow;
+  overflow-x: hidden;
 }
 
 .App {
