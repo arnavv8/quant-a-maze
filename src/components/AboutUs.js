@@ -7,7 +7,7 @@ const AboutUsContent = () => {
     <div className="about-us-content">
       <div class="about-us-main-heading">About Us</div>
       <div class="about-us-desc">
-        Quantum Tech Club is a student club that aims to bring primary quantum
+        Q-Bits is a student club that aims to bring primary quantum
         computing resources. We provide resources for students who are just
         beginning to learn about quantum computing to those who are looking for
         internships and jobs in the quantum computing area. Throughout the year,
