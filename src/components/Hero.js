@@ -17,7 +17,7 @@ const Hero = () => {
       
       <div className="hero-subheading">
         <div class="event-date">
-          Dates - To be announced
+
         </div>
         <div class="event-venue">
           Nitte Meenakshi Institute of Technology, Bangalore
