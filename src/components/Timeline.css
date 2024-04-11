@@ -1,0 +1,21 @@
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  .timeline-image {
+    flex: 1;
+    padding: 70px;
+  }
+  
+  .timeline-image img {
+    max-width: 20%;
+    height: auto;
+  }
+  
+  .timeline-content {
+    flex: 3;
+    padding: 20px;
+  }
