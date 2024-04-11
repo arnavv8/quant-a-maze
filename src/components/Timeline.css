@@ -2,20 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px; /* Adjust as needed */
+    margin-top: 40px;
   }
   
   .timeline-image {
-    flex: 1;
+    flex: 3;
     padding: 70px;
+    display: flex;
   }
   
   .timeline-image img {
-    max-width: 20%;
+    max-width: 70%;
     height: auto;
   }
   
+  .timeline-image .timeline-image-2 {
+    margin-left: 200px;
+  }
+  
   .timeline-content {
-    flex: 3;
+    flex: 2;
     padding: 20px;
   }
