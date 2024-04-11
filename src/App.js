@@ -6,7 +6,7 @@ import Tracks from './components/Tracks';
 import Prizes from './components/Prizes';
 import Sponsors from './components/Sponsors';
 import Timeline from './components/Timeline';
-import Contact from './components/Contact';
+import ContactUs from './components/ContactUs';
 import './App.css';
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
         <Timeline />
       </div>
       <div className="contact-block">
-        <Contact />
+        <ContactUs />
       </div>
       
     </div>

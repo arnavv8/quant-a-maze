@@ -1,0 +1,40 @@
+.contact {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-buttons a {
+    margin: 0 10px;
+  }
+  
+  .contact-buttons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .contact-buttons svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+  
+  .contact-buttons svg:hover {
+    fill: #ff9900;
+  }
