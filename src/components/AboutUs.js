@@ -29,15 +29,17 @@ const AboutUsStats = () => {
       </div>
       <div className="stat-item">
         <div className="stat-number">10+</div>
-        <div>Industrial Experts</div>
+        <div>Industrial</div>
+        <div>Experts</div>
       </div>
       <div className="stat-item">
-        <div className="stat-number">4+</div>
+        <div className="stat-number">400+</div>
         <div>Applications</div>
       </div>
       <div className="stat-item">
         <div className="stat-number">100%</div>
-        <div>Positive Feedback</div>
+        <div>Positive</div>
+        <div>Feedback</div>
       </div>
     </div>
   );
