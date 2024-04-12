@@ -4,7 +4,7 @@ import HeroWithNav from './components/HeroWithNav';
 import AboutUs from './components/AboutUs';
 import Tracks from './components/Tracks';
 import Prizes from './components/Prizes';
-import Sponsors from './components/Sponsors';
+//import Sponsors from './components/Sponsors';
 import Timeline from './components/Timeline';
 import ContactUs from './components/ContactUs';
 import './App.css';
@@ -26,9 +26,6 @@ const App = () => {
       </div>
       <div className="timline-block">
         <Timeline />
-      </div>
-      <div className="sponsors-block">
-        <Sponsors />
       </div>
       <div className="contact-block">
         <ContactUs />
