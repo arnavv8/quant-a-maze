@@ -22,7 +22,7 @@ const NavbarComponent = () => {
         <button class = "link-btn" onClick={() => scrollToSection('about-us')}>About Us</button>
         <button class = "link-btn" onClick={() => scrollToSection('tracks')}>Tracks</button>
         <button class = "link-btn" onClick={() => scrollToSection('prizes')}>Prizes</button>
-        <button class = "link-btn" onClick={() => scrollToSection('prizes')}>Timeline</button>
+        <button class = "link-btn" onClick={() => scrollToSection('timeline')}>Timeline</button>
         <button class = "link-btn" onClick={() => scrollToSection('sponsors')}>Sponsors</button>
         <button class = "link-btn" onClick={() => scrollToSection('contact')}>Contact us</button>
       </div>

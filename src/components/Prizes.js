@@ -7,7 +7,7 @@ import './Prizes.css';
 
 const Prizes = () => {
   return (
-    <div className="prizes-container">
+    <div className="prizes-container" id="prizes">
       <div className="prizes-header">
         <img src={prizesbg} alt="Prizes Header" />
       </div>

@@ -3,7 +3,7 @@ import './Tracks.css';
 
 const Tracks = () => {
   return (
-    <div className="tracks-container">
+    <div className="tracks-container" id="tracks">
       <h2>Tracks</h2>
       <ul className="tracks-list">
         <li className="track-item track-game-dev">Game Dev</li>
