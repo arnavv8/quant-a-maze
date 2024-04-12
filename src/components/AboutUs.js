@@ -24,20 +24,20 @@ const AboutUsStats = () => {
   return (
     <div className="about-us-stats">
       <div className="stat-item">
-        <div className="stat-number">120+</div>
+        <div className="stat-number">120<span className='plus'>+</span></div>
         <div>Participants</div>
       </div>
       <div className="stat-item">
-        <div className="stat-number">10+</div>
+        <div className="stat-number">10<span className='plus'>+</span></div>
         <div>Industrial</div>
         <div>Experts</div>
       </div>
       <div className="stat-item">
-        <div className="stat-number">400+</div>
+        <div className="stat-number">400<span className='plus'>+</span></div>
         <div>Applications</div>
       </div>
       <div className="stat-item">
-        <div className="stat-number">100%</div>
+        <div className="stat-number">100<span className='plus'>%</span></div>
         <div>Positive</div>
         <div>Feedback</div>
       </div>

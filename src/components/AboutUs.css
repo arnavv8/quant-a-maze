@@ -62,6 +62,10 @@
   font-size: 5rem;
 }
 
+.plus{
+  color : #8896f1
+}
+
 .left-about-us-design{
   background-image: url(../img/aboutus/left-about-us.svg);
   width: 60rem;
