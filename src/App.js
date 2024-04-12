@@ -24,11 +24,11 @@ const App = () => {
       <div className="prizes-block">
         <Prizes />
       </div>
-      <div className="sponsors-block">
-        <Sponsors />
-      </div>
       <div className="timline-block">
         <Timeline />
+      </div>
+      <div className="sponsors-block">
+        <Sponsors />
       </div>
       <div className="contact-block">
         <ContactUs />
